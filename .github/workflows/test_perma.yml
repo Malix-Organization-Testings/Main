@@ -1,0 +1,16 @@
+name: test_perma
+
+on: workflow_dispatch
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+
+    steps:
+    
+      - name: Permanent Interaction Limits
+        uses: Malix-Labs/GitHub-Action_Permanent-Interaction-Limits@main
+        with:
+          target: organization
+        env:
+          TOKEN: ${{ secrets.TOKEN_PERMA_REPO_TEST }}
