@@ -13,4 +13,4 @@ jobs:
         with:
           target: organization
         env:
-          TOKEN: ${{ secrets.TOKEN_PERMA_REPO_TEST }}
+          TOKEN: ${{ secrets.TOKEN_PERMA_REPO_TEST_ORGANIZATION }}
